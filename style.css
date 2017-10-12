@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+      font-size: 40px;
+      font-weight: lighter;
+}
+.header {
+  color: purple;
+  /*background-image:url(Cart.png); */
+}
+
+img {
+    width: 100px;
+}
+
+li {
+  color:green;
+  font-style: italic;
+}
+li.two {
+  color:brown;
+  text-align:left;
+  text-decoration:line-through;
+  text-shadow: 1px 1px 1px red;
+/*  background-color:blue; */
+  border-color: purple;
+}
+
+body {
+  font-family: 'Nosifer', cursive;
+}
