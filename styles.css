@@ -11,7 +11,9 @@
 
 
 .carousel .carousel-inner {
-  height:content-box;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 
