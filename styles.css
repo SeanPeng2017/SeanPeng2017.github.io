@@ -1,9 +1,23 @@
-.navbar-light .navbar-brand {
-  color: red;
+body {
+  font-family: roboto;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.jumbotron {
-  background-image: url(background.jpg);
+h2  {
+  text-decoration: underline;
+  margin-top: 3%;
+}
+
+#res_brand {
+  color:#0095ff;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.list-group {
+  background-image: url(twitter.png);
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -14,29 +28,37 @@
   /*width: 100%; height: 600px;*/
 }
 
-.intro-title  {
-  font-size: 3.5em;
+h1  {
   font-weight: bold;
   margin-top: 5%;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 .intro-text  {
 letter-spacing: .015em;
 line-height: 1.5em;
-margin-left: 20%;
-margin-right: 20%;
+text-align: center;
 }
 
-.table1 {
-  border-style: solid;
+
+
+
+.menu {
+  font-weight: bold;
 }
 
-.table2 {
-  border-style: solid;
+.td-left {
+  text-align: left;
 }
 
-body {
-  font-size: 18px;
-  text-align: center;
+.td-middle {
+  text-align: middle;
+  font-style: italic;
+  color: grey;
+}
+
+.td-right {
+  text-align: right;
+  font-weight: bold;
 }
